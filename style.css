@@ -4,12 +4,9 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #EDEEF1;
-    overflow: hidden;
     font-family: system-ui, 'Segoe UI', Arial, sans-serif;
 }
-main{
-    box-shadow: rgba(0, 0, 0, 0.08);
-}
+
 header{
     margin-top: 30px;
 }
@@ -25,6 +22,7 @@ main{
     flex-direction: column;
     padding: 15px;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08);
 }
 .Sect1{
     display: flex;
@@ -110,6 +108,22 @@ main{
     font-size: 20px;
     cursor: pointer;
     border: solid rgb(142, 137, 137);
+}
+p{
+    font-size: 14px;
+    color: rgb(105, 105, 105);
+}
+p a{
+    text-decoration: none;
+    color: #1877F2;
+}
+a:hover{
+    text-decoration: underline;
+}
+@media (max-width:1024px) {
+    main{
+        width: 50%;
+    }
 }
 @media (max-width: 768px) {
     main{
