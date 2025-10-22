@@ -1,0 +1,137 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDEEF1;
+    overflow: hidden;
+    font-family: system-ui, 'Segoe UI', Arial, sans-serif;
+}
+main{
+    box-shadow: rgba(0, 0, 0, 0.08);
+}
+header{
+    margin-top: 30px;
+}
+header h1{
+    margin: -10px;
+}
+main{
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+}
+.Sect1{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+}
+.Sect1 input{
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    border: solid;
+    outline-color: black;
+    border: solid rgb(142, 137, 137);
+}
+.Sect2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+}
+.PP{
+    display: flex;
+    margin: 0;
+    text-align: start;
+    margin-bottom: -10px;
+    margin-left: 15px;
+}
+.Sect2 input{
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    outline-color: black;
+    border: solid rgb(142, 137, 137);
+}
+.Sect3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+}
+.Sect3 select{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    outline-color: black;
+    border: solid rgb(142, 137, 137);
+}
+
+.Sect4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+}
+.Sect4 div{
+    justify-content: center;
+    align-content: center;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    outline-color: black;
+    border: solid rgb(142, 137, 137);
+}
+.Sect5 {
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.Sect6{
+    padding: 15px;
+}
+.Sect6 input{
+    background-color: #4BBF2F;
+    color: white;
+    padding: 11px;
+    width: 100%;
+    border-radius: 10px;
+    outline-color: black;
+    font-size: 20px;
+    cursor: pointer;
+    border: solid rgb(142, 137, 137);
+}
+@media (max-width: 768px) {
+    main{
+        width: 65%;
+    }
+    .Sect1{
+    flex-direction: column;
+     }
+     .Sect3{
+        flex-direction: column;
+    }
+    .Sect4{
+        flex-direction: column;
+        width: 50%;
+    }
+    .Sect4 div{
+        text-align: justify;
+    }
+}
+@media (max-width:425px) {
+    main{
+        width: 100%;
+    }
+}
+
